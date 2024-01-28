@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+.h-logo{
+    background-color: rgb(13, 41, 65);
+    height: 7vh;
+}
+.h-logo img{
+    width: 100px;
+    margin: 2vh;
+    padding-left: 3vh;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(48, 60, 84);
+}
+nav p{
+    padding: 0 1.5vh;
+    margin: 1vh;
+    color: white;
+}
+
+.orange-ban p{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 0;
+    text-align: center;
+}
+.orange-ban{
+    margin: 1%;
+}
+
+.banner {
+    background-image: url(assets/bg-image.png);
+    height: 95px;
+}
+.text{
+    padding: 1%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+.text p{
+    font-weight: 500;
+    margin-top: 1%;
+    font-size: 15px;
+}
+
+.carosello {
+    background-color: white;
+    margin: 3vh;
+    
+}
+.elements{
+    margin: 0 30px;
+}
+
+.carosello img{
+    display: inline-block;
+    width: 17%;
+    height: 300px;
+    margin: 0 50px;
+    border-radius: 20%;
+    box-shadow: rgb(233, 233, 233) 4px 4px 4px 4px;
+    margin-bottom: 2%;
+}
+
+.elements h5{
+    padding: 1%;
+    font-size: 15px;
+}
+
+.tech img{
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 97%;
+    margin-bottom: 1px;
+}
+.tech h5{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Acc img{
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 97%;
+    margin-bottom: 1px;
+}
+.Acc h5{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ban{
+    background-color: rgb(48, 60, 84);
+    text-align: center;
+    height: 40px;
+}
+
+.ban a{
+    font-size: 18px;
+    color:white;
+    font-weight: 300;
+}
+.ban h6{
+    padding: 0.3%;
+}
+.f-logo{
+    background-color: rgb(13, 41, 65);
+    display: flex;
+    justify-content: center;
+}
+.f-logo img{
+   width: 10%;
+   margin-top: 3%;
+}
